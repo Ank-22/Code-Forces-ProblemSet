@@ -1,5 +1,5 @@
 # Code-Forces-ProblemSet
-This repo will contains the my solution for Code Forces ProblemSet section and there explanation and if possible then a YouTube Video
+This repo will contains my solution for the Code Forces ProblemSet section and their explanation and if possible then a YouTube Video
 
 [**CodeForces Link**](https://codeforces.com/)
 
