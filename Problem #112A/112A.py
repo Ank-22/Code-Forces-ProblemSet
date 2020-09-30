@@ -1,6 +1,5 @@
 a= input().lower()
 b=input().lower()
-
 if(len(a)>len(b)):
     print(1)
 elif(len(b)>len(a)):
