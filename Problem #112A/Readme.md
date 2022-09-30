@@ -21,7 +21,7 @@ Otherwise we continue our comparison.
 ## DRY RUN:
 
 **INPUT:** <br>
-abcdefg
+abcdefg <br>
 AbCdEfF
 
 | Position | c1 | c2 | Result                                                                                   |
@@ -40,7 +40,7 @@ AbCdEfF
 ------------------------------------------------------------------------------------------------------------------------------
 
 **INPUT:** <br>
-dEmoTESt
+dEmoTESt <br>
 DeMoTeST
 
 | Position | c1 | c2 | Result                                   |
