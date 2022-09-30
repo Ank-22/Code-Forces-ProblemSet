@@ -2,7 +2,7 @@
 
 [Link to the Problem](https://codeforces.com/problemset/problem/112/A)
 
-##LOGIC:
+## LOGIC:
 
 In this question we have to compare two strings of same length lexicographically.
 The case of the letters doesn't matter here.
@@ -18,9 +18,9 @@ We output 1 and return since we are now done comparing
 
 Otherwise we continue our comparison.
 
-##DRY RUN:
+## DRY RUN:
 
-**INPUT:**
+**INPUT:** <br>
 abcdefg
 AbCdEfF
 
@@ -34,12 +34,12 @@ AbCdEfF
 | 5        | f  | f  | c1==c2  Therefore, comparison continues.                                                 |
 | 6        | g  | f  | c1>c2 Therefore the following piece of code executes {System.out.println("1"); return; } |
 
-**OUTPUT:**
+**OUTPUT:** <br>
 1
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-**INPUT:**
+**INPUT:** <br>
 dEmoTESt
 DeMoTeST
 
@@ -56,6 +56,6 @@ DeMoTeST
 
 the control comes out of the loop therefore line 24 of code(System.out.println("0");) executes. 
 
-**OUTPUT:**
+**OUTPUT:** <br>
 0
 
