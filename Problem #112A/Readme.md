@@ -32,7 +32,7 @@ AbCdEfF
 | 3        | d  | d  | c1==c2  Therefore, comparison continues.                                                 |
 | 4        | e  | e  | c1==c2  Therefore, comparison continues.                                                 |
 | 5        | f  | f  | c1==c2  Therefore, comparison continues.                                                 |
-| 6        | g  | f  | c1>c2 Therefore the following piece of code executes {System.out.println("1"); return; } |
+| 6        | g  | f  | c1>c2   Therefore, ```{System.out.println("1"); return; }```                             |
 
 **OUTPUT:** <br>
 1
@@ -54,7 +54,7 @@ DeMoTeST
 | 6        | s  | s  | c1==c2  Therefore, comparison continues. |
 | 7        | t  | t  | c1==c2  Therefore, comparison continues. |
 
-the control comes out of the loop therefore line 24 of code(System.out.println("0");) executes. 
+the control comes out of the loop therefore ```System.out.println("0");``` executes. 
 
 **OUTPUT:** <br>
 0
