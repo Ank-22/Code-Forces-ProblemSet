@@ -11,10 +11,10 @@ and since the comparison is case insensitive we have to convert both the charact
 We convert both the characters to lower case and then compare.
 
 If c1(character in string 1) < c2(character in string 2) then string 1 is lexicographically smaller than string 2.
-We output -1 and return since we are now done comparing
+We output -1 and return since we are now done comparing.
 
 If c1(character in string 1) > c2(character in string 2) then string 2 is lexicographically smaller than string 1.
-We output 1 and return since we are now done comparing
+We output 1 and return since we are now done comparing.
 
 Otherwise we continue our comparison.
 
@@ -32,7 +32,7 @@ AbCdEfF
 | 3        | d  | d  | c1==c2  Therefore, comparison continues.                                                 |
 | 4        | e  | e  | c1==c2  Therefore, comparison continues.                                                 |
 | 5        | f  | f  | c1==c2  Therefore, comparison continues.                                                 |
-| 6        | g  | f  | c1>c2   Therefore, ```{System.out.println("1"); return; }```                             |
+| 6        | g  | f  | c1>c2   Therefore, ```{System.out.println("1"); return; }```  executes                   |
 
 **OUTPUT:** <br>
 1
