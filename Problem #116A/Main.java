@@ -15,11 +15,13 @@ public class Main{
         for(int i=0; i<n; i++){
             exit = scn.nextInt();
             entry = scn.nextInt();
-            currcapacity -= exit;
-            currcapacity += entry;
+            currcapacity = currcapacity-exit+entry;
             ans = Math.max(currcapacity, ans);
         }
 
         System.out.println(ans);
+        
+        //Time Complexity: O(n)
+        //Space Complexity: O(1)
     }
 }
