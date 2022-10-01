@@ -20,7 +20,7 @@ ans = Math.max(currcapacity, ans);
 ```
 
 ***Time Complexity of Code: *** O(n)<br>
-***Space Complexity of Code: ***O(1)<br>
+***Space Complexity of Code: *** O(1)<br>
 
 ## DRY RUN:
 
