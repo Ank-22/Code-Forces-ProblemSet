@@ -13,7 +13,7 @@ entry = scn.nextInt();
 currcapacity -= exit;
 currcapacity += entry;
 ```
-Now we update the ans by taking the max of ans and currcapacity<br>
+Now we update the ans by taking the max of ans and currcapacity.<br>
 ```
 ans = Math.max(currcapacity, ans);
 ```
