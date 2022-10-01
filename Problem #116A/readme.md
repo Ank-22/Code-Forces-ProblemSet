@@ -19,8 +19,8 @@ Now we update the ans by taking the max of ans and currcapacity.<br>
 ans = Math.max(currcapacity, ans);
 ```
 
-***Time Complexity of Code: *** O(n)<br>
-***Space Complexity of Code: *** O(1)<br>
+***Time Complexity of Code:*** O(n)<br>
+***Space Complexity of Code:*** O(1)<br>
 
 ## DRY RUN:
 
